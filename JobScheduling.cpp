@@ -14,9 +14,9 @@ enum class ScheduleType {
 
 struct Job {
     ScheduleType type;
-    int minute;         //for hourly (min of the hour)
-    int hour;           //for daily (hour of the day)
-    int dayOfWeek;     //for weekly (day of the week)
+    int minute;         
+    int hour;          
+    int dayOfWeek;    
     string name;   
 };
 
